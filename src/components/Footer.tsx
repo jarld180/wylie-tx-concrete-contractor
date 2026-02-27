@@ -43,11 +43,11 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="font-bold text-lg mb-8 uppercase tracking-widest text-black">Service Areas</h4>
             <ul className="space-y-4">
-              <li><Link to="/fort-worth" className="text-black hover:text-black transition-colors font-medium">Fort Worth, TX</Link></li>
-              <li><Link to="/plano" className="text-black hover:text-black transition-colors font-medium">Plano, TX</Link></li>
-              <li><Link to="/irving" className="text-black hover:text-black transition-colors font-medium">Irving, TX</Link></li>
-              <li><Link to="/garland" className="text-black hover:text-black transition-colors font-medium">Garland, TX</Link></li>
-              <li><Link to="/grand-prairie" className="text-black hover:text-black transition-colors font-medium">Grand Prairie, TX</Link></li>
+              <li><span className="text-black font-medium">Garland, TX</span></li>
+              <li><span className="text-black font-medium">Mesquite, TX</span></li>
+              <li><span className="text-black font-medium">Rowlett, TX</span></li>
+              <li><span className="text-black font-medium">Rockwall, TX</span></li>
+              <li><span className="text-black font-medium">Forney, TX</span></li>
             </ul>
           </div>
         </div>
