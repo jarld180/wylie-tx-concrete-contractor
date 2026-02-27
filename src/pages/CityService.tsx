@@ -37,7 +37,7 @@ const CityService: React.FC = () => {
         { text: "They replaced our long driveway in Fort Worth. The crew was professional and the finish is flawless.", author: "Michael R., Fort Worth, TX" },
         { text: "Best concrete work we've seen in the area. They matched our existing walkway perfectly.", author: "Sarah W., Fort Worth, TX" }
       ],
-      mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3262.1!2d-80.6467!3d35.1751!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8854180909090909%3A0x8854180909090909!2sMint%20Hill%2C%20NC!5e0!3m2!1sen!2sus!4v1704576000000!5m2!1sen!2sus"
+      mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3262.1!2d-96.5389!3d33.0151!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8854180909090909%3A0x8854180909090909!2sMint%20Hill%2C%20TX!5e0!3m2!1sen!2sus!4v1704576000000!5m2!1sen!2sus"
     },
     'weddington-patios': {
       heroDesc: `Luxury artisan stamped patios for Grand Prairie estates. High-end decorative finishes designed for ultimate outdoor living.`,
@@ -52,7 +52,7 @@ const CityService: React.FC = () => {
         { text: "Our new patio in Grand Prairie is amazing. The detail in the stamping is incredible.", author: "Jennifer L., Grand Prairie, TX" },
         { text: "Professional team. They handled our large-scale project with absolute precision.", author: "Robert P., Grand Prairie, TX" }
       ],
-      mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3268.8!2d-80.7328!3d35.0107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x885428088888888b%3A0x885428088888888b!2sGrand Prairie%2C%20NC!5e0!3m2!1sen!2sus!4v1704576000000!5m2!1sen!2sus"
+      mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3268.8!2d-96.5389!3d33.0151!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x885428088888888b%3A0x885428088888888b!2sGrand Prairie%2C%20TX!5e0!3m2!1sen!2sus!4v1704576000000!5m2!1sen!2sus"
     }
   };
 
@@ -69,7 +69,7 @@ const CityService: React.FC = () => {
       { text: `Exceptional quality on our ${serviceName} project. The team in ${cityName} was professional and fast.`, author: `James D., ${cityName}, TX` },
       { text: `The best concrete contractors in the ${cityName} area. We couldn't be happier with the results.`, author: `Linda M., ${cityName}, TX` }
     ],
-    mapUrl: `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100000!2d-80.7!3d35.1!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8854000000000000%3A0x0000000000000000!2s${cityName}%2C%20NC!5e0!3m2!1sen!2sus!4v1704576000000!5m2!1sen!2sus`
+    mapUrl: `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100000!2d-96.5389!3d33.0151!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8854000000000000%3A0x0000000000000000!2s${cityName}%2C%20TX!5e0!3m2!1sen!2sus!4v1704576000000!5m2!1sen!2sus`
   };
 
   return (

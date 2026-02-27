@@ -11,8 +11,8 @@ interface HomeProps {
 
 const Home3: React.FC<HomeProps> = ({ cityName = "Wylie" }) => {
   const mapUrl = cityName === "Wylie" 
-    ? "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3263.1!2d-80.7128!3d35.1167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8854210909090909%3A0x8854210909090909!2sDallas%2C%20NC!5e0!3m2!1sen!2sus!4v1704576000000!5m2!1sen!2sus"
-    : `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100000!2d-80.7!3d35.1!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8854000000000000%3A0x0000000000000000!2s${encodeURIComponent(cityName)}%2C%20NC!5e0!3m2!1sen!2sus!4v1704576000000!5m2!1sen!2sus`;
+    ? "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3263.1!2d-96.5389!3d33.0151!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8854210909090909%3A0x8854210909090909!2sDallas%2C%20TX!5e0!3m2!1sen!2sus!4v1704576000000!5m2!1sen!2sus"
+    : `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100000!2d-96.5389!3d33.0151!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8854000000000000%3A0x0000000000000000!2s${encodeURIComponent(cityName)}%2C%20TX!5e0!3m2!1sen!2sus!4v1704576000000!5m2!1sen!2sus`;
 
   return (
     <div className="overflow-x-hidden">
