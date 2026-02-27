@@ -388,7 +388,7 @@ const Home: React.FC<HomeProps> = ({ cityName = "Wylie" }) => {
               </div>
             </div>
               <div className="p-6 md:p-20 bg-gray-50">
-                <LeadForm title="Claim Your Free Quote" />
+                <LeadForm title="Claim Your Free Quote" city={cityName} />
               </div>
             </div>
           </div>
